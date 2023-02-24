@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    margin-top: 8%;
+}
+
+.title {
+    font-size: 125px;
+    font-weight: 500;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(3, 135px);
+    grid-template-rows: repeat(3, 135px);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.square {
+    border: 5px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 135px;
+    font-weight: 300;
+}
